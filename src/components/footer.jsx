@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <nav
       className=""
-      style={{ backgroundColor: "#AAD8D3", borderBottom: "1px solid black" }}
+      style={{ backgroundColor: "#AAD8D3", borderBottom: "1px solid black",textAlign: "center" }}
     >
       <div className="">
         <a>

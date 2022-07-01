@@ -1,15 +1,22 @@
+import React from "react";
+import "../src/index.css";
+import { BrowserRouter } from "react-router-dom";
+import { Routing } from "./router/routing"; 
+import { injectContext } from "./store/appContext";
 
-import './App.css';
 
-import { Routing } from './router/routing';
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Routing></Routing>
-    </div>
+
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routing></Routing>
+      </BrowserRouter>
+    </React.StrictMode>
+
   );
 }
 
-export default App;
+export default injectContext (App);
+
+

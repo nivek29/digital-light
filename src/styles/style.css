@@ -109,3 +109,7 @@ h6 {
   font-size: large;
   padding: 10px;
 }
+.lista{
+  height: 300px;
+  overflow-y: scroll;
+}

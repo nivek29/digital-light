@@ -1,18 +1,29 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Fragment } from "react";
+import React, { Fragment, useContext, useState } from "react";
 import Logo from "../img/footer.png";
 import { Link } from "react-router-dom";
+import { Context } from "../store/appContext";
 
 export const Navbar = () => {
+  const { store, actions } = useContext(Context);
+  const [ciclo, setCiclo] = useState("");
+  
   const info = (e) => {
-    console.log(e.id);
+    setCiclo(e)
+    actions.enable(false)
+    actions.cambiarCiclo(e);
+    actions.listaGrados(e);
   };
 
   return (
     <Fragment>
       <nav
         className=""
-        style={{ backgroundColor: "#AAD8D3", borderBottom: "1px solid black" }}
+        style={{
+          backgroundColor: "#AAD8D3",
+          borderBottom: "1px solid black",
+          textAlign: "center",
+        }}
       >
         <div className="">
           <a>
@@ -48,9 +59,6 @@ export const Navbar = () => {
                     className="nav-link active"
                     aria-current="page"
                     id="inicio"
-                    onClick={(e) => {
-                      info(e.target);
-                    }}
                   >
                     Inicio
                   </a>
@@ -64,7 +72,8 @@ export const Navbar = () => {
                     aria-current="page"
                     id="primaria"
                     onClick={(e) => {
-                      info(e.target);
+                      info("Primaria");
+                      
                     }}
                   >
                     Primaria
@@ -78,7 +87,7 @@ export const Navbar = () => {
                     aria-current="page"
                     id="asignaturas"
                     onClick={(e) => {
-                      info(e.target);
+                      info("Secundaria");
                     }}
                   >
                     Secundaria
