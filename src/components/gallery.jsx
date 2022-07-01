@@ -21,6 +21,7 @@ export const Gallery = () => {
         <div
           className="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos mt-2"
           data-bss-baguettebox=""
+          style={{textAlign: "center"}}
         >
           <div className="col item  mb-9">
             <a href="https://static.vecteezy.com/system/resources/thumbnails/005/880/012/small/maths-symbols-icon-set-algebra-or-mathematics-subject-doodle-design-education-and-study-concept-back-to-school-background-for-notebook-not-pad-sketchbook-hand-drawn-illustration-vector.jpg">
