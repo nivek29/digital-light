@@ -57,11 +57,13 @@ export const data = [
         nombre: "Estudios Sociales",
         contenido: ["", "", ""],
       },
+      
       {
         nombre: "Matematicas",
         contenido: ["", "", ""],
       },
     ],
+
   },
   {
     grado: "Cuarto",
