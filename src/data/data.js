@@ -4,7 +4,8 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["1", "2", "3"],
+        contenido: ["Vocales", "Consonantes", "ABC"],
+        
       },
       {
         nombre: "Ciencias",
