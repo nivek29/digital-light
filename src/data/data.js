@@ -12,7 +12,7 @@ export const data = [
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["¿Qué es la familia?", "La comunidad", "¨Paisaje Geográfico"],
+        contenido: ["¿Qué es la familia?", "Las comunidades", "¨Paisaje Geográfico"],
       },
       {
         nombre: "Matematicas",
