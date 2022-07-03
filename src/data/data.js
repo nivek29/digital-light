@@ -4,20 +4,19 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["Vocales", "Consonantes", "ABC"],
-        
+        contenido: ["El abecedario", "Vocales y consonantes", "Mayúsculas y minúsculas"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["4", "5", "6"],
+        contenido: ["El Cuerpo Humano", "Los Sentidos", "El Ecosistema"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["7", "8", "9"],
+        contenido: ["¿Qué es la familia?", "Las comunidades", "¨Paisaje Geográfico"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["10", "11", "12"],
+        contenido: ["Contar hasta 10", "Contar de cinco en cinco", "Contar de dos en dos"],
       },
     ],
   },
@@ -26,19 +25,19 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Sustantivos, adjetivos y verbos.", "Las partes de las oraciones", "La exposición oral"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["", "", ""],
+        contenido: ["Diversidad Natural", "Diversidad Animal", "Fenómenos Naturales"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Conservación del ambiente", "Realidad espacial", "Educación Vial"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Suma y resta números hasta 20", "Valor posicional", "La medición"],
       },
     ],
   },
@@ -47,20 +46,20 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["La sílaba", "Sinónimos y antónimos", "Sílabas tónicas y átonas"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["", "", ""],
+        contenido: ["Las plantas", "Los Animales", "El aire y la contaminación"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["El impacto de los seres humanos en el ambiente", "Períodos históricos de Costa Rica", "Cultura precolombina"],
       },
       
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Números", "Fracciones", "Figuras y cuerpos geométricos"],
       },
     ],
 
@@ -70,19 +69,19 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Propiedades y tipos de textos", "Comprensión e  interpretación", "Conocimiento de las características, función y uso del lenguaje"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["", "", ""],
+        contenido: ["La materia y la energía", "El calor y la energía", "La reproducción humana"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Deberes y derechos", "Espacio geográfico", "Recursos Naturales"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Sumas, restas y estimaciones", "La división", "Factores, múltiplos y patrones"],
       },
     ],
   },
@@ -91,19 +90,19 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Relato histórico", "Refranes", "Símil y metáfora"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["", "", ""],
+        contenido: ["El magnetismo", "La alimentación", "La energía"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Instituciones Estatales", "Geografía y territorio", "Historia Nacional"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Suma decimales.", "Resta decimales", "Suma y resta fracciones"],
       },
     ],
   },
@@ -112,19 +111,19 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Adejetivos calificativos", "Adverbios", "Preposiciones"],
       },
       {
         nombre: "Ciencias",
-        contenido: ["", "", ""],
+        contenido: ["La Tierra y el Universo", "Geografía", "Química y física"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Población y actividades económicas", "Identidad Nacional", "Patrimonios naturales y culturales"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Operaciones aritméticas", "Variables y expresiones", "Geometría"],
       },
     ],
   },
