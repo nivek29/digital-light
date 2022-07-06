@@ -132,32 +132,24 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Uso de mayúsculas", "Uso del punto", "Uso de la coma"],
       },
       {
-        nombre: "Biologia",
-        contenido: ["", "", ""],
+        nombre: "Ciencias",
+        contenido: ["Postulados de la teoría celular", "La célula", "La célula y el ciclo celular"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Del nomadismo a las sociedades agrícolas", "Los primeros pasos del ser humano", "La Revolución Neolítica"],
       },
       {
-        nombre: "Matematicas",
-        contenido: ["", "", ""],
+        nombre: "Matemáticas",
+        contenido: ["Exponentes", "Divisibilidad", "Potenciación"],
       },
       {
-        nombre: "Ingles",
-        contenido: ["", "", ""],
-      },
-      {
-        nombre: "Fisica",
-        contenido: ["", "", ""],
-      },
-      {
-        nombre: "Quimica",
-        contenido: ["", "", ""],
-      },
+        nombre: "Inglés",
+        contenido: ["Personal information", "Family", "Verbs"],
+      }
     ],
   },
   {
@@ -165,32 +157,25 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Uso de j y g", "Uso de la v y b", "Poesía"],
       },
       {
-        nombre: "Biologia",
-        contenido: ["", "", ""],
+        nombre: "Ciencias",
+        contenido: ["Energía y sus transformaciones", "Ciclo celular y la mitosis", "Nutrición culular"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["La adaptación del ser humano a un medio cambiante", "La adaptación del ser humano ante un espacio geográfico dinámico y un recurso hídrico limitado", "La dinámica de la superficie terrestre"],
       },
       {
-        nombre: "Matematicas",
-        contenido: ["", "", ""],
+        nombre: "Matemáticas",
+        contenido: ["Números racionales", "Expresión decimal de una fracción", "Relaciones de orden en los números racionales"],
       },
       {
-        nombre: "Ingles",
-        contenido: ["", "", ""],
+        nombre: "Inglés",
+        contenido: ["Fun times : Inside and Out", "Holidays with my family", "Welcome To My Town"],
       },
-      {
-        nombre: "Fisica",
-        contenido: ["", "", ""],
-      },
-      {
-        nombre: "Quimica",
-        contenido: ["", "", ""],
-      },
+      
     ],
   },
   {
@@ -198,31 +183,23 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
-      },
-      {
-        nombre: "Biologia",
-        contenido: ["", "", ""],
+        contenido: ["Uso de mayúsculas", "Sustantivos y preposiciones", "Uso de los signos de puntuación"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Los procesos económicos, sociales, políticos y culturales desde la Edad Media al Renacimiento", "La Edad Moderna: la formación de estados absolutos, la Revolución Francesa y colonias de América", "Procesos de independencia de América y la Revolución Industrial, Costa Rica como Estado-nación"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Teorema de Pitágoras", "Función cuadrática", "Variables cuantitativas"],
       },
       {
         nombre: "Ingles",
-        contenido: ["", "", ""],
+        contenido: ["Listening", "Reading", "Writing"],
       },
       {
-        nombre: "Fisica",
-        contenido: ["", "", ""],
-      },
-      {
-        nombre: "Quimica",
-        contenido: ["", "", ""],
+        nombre: "Ciencias",
+        contenido: ["Los seres vivos en entornos saludables, como resultado de la interacción de aspectos biologicos, socioculturales y ambientales", "Uso sostenible de la energía y los materiales, para la preservación y protección de los recursos del planeta", "Interrelaciones entre las actividades que realiza el ser humano a nivel local y global, con la integridad del planeta Tierra y su vinculación con el Universo"],
       },
     ],
   },
@@ -231,31 +208,31 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Análisis de lecturas", "Expresiones complejas", "Creación de escritos"],
       },
       {
         nombre: "Biologia",
-        contenido: ["", "", ""],
+        contenido: ["Campo de estudio de la Biología", "Concepto de especie, población y biodiversidad", "Nicho ecológico y el entorno físico-químico-biológico de una población"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Expansión imperialista europea", "Guerra Mundial I y II", "Guerra fría"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Circunferencia", "Conjuntos numéricos", "Representaciones tabulares y gráficas"],
       },
       {
         nombre: "Ingles",
-        contenido: ["", "", ""],
+        contenido: ["Listening", "Reading", "Writing"],
       },
       {
-        nombre: "Fisica",
-        contenido: ["", "", ""],
+        nombre: "Física",
+        contenido: ["Física como ciencia teórica y experimental", "Magnitides escalares y vectoriales", "Movimiento relativo de los cuerpos dentro de las inmediaciones de la superficie terrestre"],
       },
       {
         nombre: "Quimica",
-        contenido: ["", "", ""],
+        contenido: ["Sustancias puras y mezclas", "Elementos químicos, sus nombres y simbología", "Organización de átomos en sus diferentes niveles, grupos, familias y capas"],
       },
     ],
   },
@@ -264,31 +241,31 @@ export const data = [
     asignatura: [
       {
         nombre: "Español",
-        contenido: ["", "", ""],
+        contenido: ["Análisis de lecturas", "Expresiones complejas", "Creación de escritos"],
       },
       {
         nombre: "Biologia",
-        contenido: ["", "", ""],
+        contenido: ["Transferencia de la materia y energía en diferentes relaciones tróficas en ecosistemas", "Sistemas de fijación y de emisión del carbono", "Cambios secuenciales de las comunidades, los procesos de recuperación y restauración de los ecosistemas"],
       },
       {
         nombre: "Estudios Sociales",
-        contenido: ["", "", ""],
+        contenido: ["Los patrones espaciales de interdependencia e interconexión en la actual sociedad globalizada", "Costa Rica en el siglo XX hasta la crisis de la década de 1980", "- Costa Rica actual: desde la crisis de la década de 1980 a los desafíos del presente"],
       },
       {
         nombre: "Matematicas",
-        contenido: ["", "", ""],
+        contenido: ["Geometría analítica", "Funciones inversas", "Medidas de variabilidad"],
       },
       {
         nombre: "Ingles",
-        contenido: ["", "", ""],
+        contenido: ["Listening", "Reading", "Writing"],
       },
       {
         nombre: "Fisica",
-        contenido: ["", "", ""],
+        contenido: ["Hidrostática", "Ley de Boyle", "Efecto Invernadero y manejo de los desechos reutilizables en el sistema planetario"],
       },
       {
         nombre: "Quimica",
-        contenido: ["", "", ""],
+        contenido: ["Moléculas polares y no polares y las fuerzas intermoleculares", "Unidades de concentración", "Química Orgánica"],
       },
     ],
   },
