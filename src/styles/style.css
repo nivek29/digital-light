@@ -16,13 +16,13 @@
 }
 
 .subtitulo {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 38px;
   letter-spacing: 0.05em;
 }
 
 .parrafo {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 38px;
   letter-spacing: 0.05em;
 }
@@ -112,4 +112,17 @@ h6 {
 .lista{
   height: 300px;
   overflow-y: scroll;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
 }
