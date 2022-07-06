@@ -16,12 +16,14 @@
 }
 
 .subtitulo {
+  color: black;
   font-size: 20px;
   line-height: 38px;
   letter-spacing: 0.05em;
 }
 
 .parrafo {
+  color: black;
   font-size: 20px;
   line-height: 38px;
   letter-spacing: 0.05em;
@@ -125,4 +127,77 @@ h6 {
   .showcase .showcase-text {
     padding: 7rem;
   }
+}
+div.jumbotron.hero-technology {
+  color: #fff;
+  text-align: center;
+  background: url(https://twigeducation.com/wp-content/uploads/2021/05/GettyImages-824641288-2000x1333.jpg) center
+    center/cover local;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-title {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+.bs-icon {
+  --bs-icon-size: 0.75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), 0.2);
+}
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, 0.5);
+}
+.bs-icon.bs-icon-rounded {
+  border-radius: 0.5rem;
+}
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
 }

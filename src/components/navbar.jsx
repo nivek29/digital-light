@@ -21,7 +21,7 @@ export const Navbar = () => {
         className=""
         style={{
           backgroundColor: "#AAD8D3",
-          borderBottom: "1px solid black",
+          
           textAlign: "center",
         }}
       >
