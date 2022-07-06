@@ -1,6 +1,7 @@
 import { Content } from '../components/content';
 import { Gallery } from '../components/gallery';
-import {data} from '../data/data'
+import { Signatures } from '../components/signatures';
+
 
 export const Home = () => {
   // console.log(data.find(materia => materia.grado === 'Primero'));
@@ -8,6 +9,8 @@ export const Home = () => {
     <div>
         <Content></Content>
         <Gallery></Gallery>
+        <Signatures></Signatures>
+
     </div>
   );
 }
