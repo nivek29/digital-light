@@ -19,7 +19,7 @@ export const getState = ({ getStore, getActions, setStore }) => {
 						ciclo:[
 							{
 								tipo:input,
-								msg:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,consectetur, adipisci velit..."
+								msg:'“Todos nuestros sueños se pueden volver realidad si tenemos el coraje de perseguirlos”. Walt Disney'
 							}
 						]
 					});
@@ -28,7 +28,7 @@ export const getState = ({ getStore, getActions, setStore }) => {
 						ciclo:[
 							{
 								tipo:input,
-								msg:"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,consectetur, adipisci velit..."
+								msg:"“Los sabios son los que buscan la sabiduría; los necios piensan ya haberla encontrado”. Napoleón Bonaparte"
 							}
 						]
 					});

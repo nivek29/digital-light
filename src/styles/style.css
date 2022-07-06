@@ -113,6 +113,7 @@ h6 {
 }
 .lista{
   height: 300px;
+  border-radius: 25px;
   overflow-y: scroll;
 }
 
@@ -132,6 +133,22 @@ div.jumbotron.hero-technology {
   color: #fff;
   text-align: center;
   background: url(https://twigeducation.com/wp-content/uploads/2021/05/GettyImages-824641288-2000x1333.jpg) center
+    center/cover local;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+div.jumbotron.hero-technology.primaria {
+  color: #fff;
+  text-align: center;
+  background: url(https://www.soldeideas.cl/assets/images/img-8877-2000x1333.jpg) center
+    center/cover local;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+div.jumbotron.hero-technology.secundaria {
+  color: #fff;
+  text-align: center;
+  background: url(https://patriauniversidad.edu.mx/cbi/assets/images/img-9661-2000x1333.jpg) center
     center/cover local;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -200,4 +217,10 @@ p.hero-subtitle {
 }
 .bs-icon.bs-icon-circle {
   border-radius: 50%;
+}
+.hover:hover{
+    background-color: #393e4627;
+    color: #fff !important;
+    border-radius: 5px;
+    text-decoration: none;
 }
