@@ -27,7 +27,7 @@ export const Navbar = () => {
       >
         <div className="">
           <a>
-            <img src={Logo} alt="" style={{ width: 150, height: 130 }} />
+            <img src={Logo} alt="" style={{ width: 90, height: 90 }} />
           </a>
         </div>
       </nav>
@@ -56,7 +56,7 @@ export const Navbar = () => {
               <Link to="/">
                 <li className="nav-item">
                   <a
-                    className="nav-link active"
+                    className="nav-link"
                     aria-current="page"
                     id="inicio"
                   >
@@ -68,7 +68,7 @@ export const Navbar = () => {
               <Link to="/ciclos/primaria">
                 <li className="nav-item">
                   <a
-                    className="nav-link active"
+                    className="nav-link"
                     aria-current="page"
                     id="primaria"
                     onClick={(e) => {
@@ -83,7 +83,7 @@ export const Navbar = () => {
               <Link to="/ciclos/secundaria">
                 <li className="nav-item">
                   <a
-                    className="nav-link active"
+                    className="nav-link"
                     aria-current="page"
                     id="asignaturas"
                     onClick={(e) => {
