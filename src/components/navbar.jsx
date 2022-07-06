@@ -49,14 +49,14 @@ export const Navbar = () => {
           </button>
           <div
             className="collapse navbar-collapse"
-            style={{ justifyContent: "space-evenly" }}
+            style={{ justifyContent: "space-evenly",}}
             id="navbarNav"
           >
             <ul className="navbar-nav">
-              <Link to="/">
-                <li className="nav-item">
+              <Link to="/" style={{textDecoration: "none"}}>
+                <li className="nav-item hover">
                   <a
-                    className="nav-link"
+                    className="nav-link hover"
                     aria-current="page"
                     id="inicio"
                   >
@@ -65,10 +65,10 @@ export const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/ciclos/primaria">
-                <li className="nav-item">
+              <Link to="/ciclos/primaria" style={{textDecoration: "none"}}>
+                <li className="nav-item hover">
                   <a
-                    className="nav-link"
+                    className="nav-link hover"
                     aria-current="page"
                     id="primaria"
                     onClick={(e) => {
@@ -80,10 +80,10 @@ export const Navbar = () => {
                   </a>
                 </li>
               </Link>
-              <Link to="/ciclos/secundaria">
-                <li className="nav-item">
+              <Link to="/ciclos/secundaria" style={{textDecoration: "none"}}>
+                <li className="nav-item hover ">
                   <a
-                    className="nav-link"
+                    className="nav-link hover"
                     aria-current="page"
                     id="asignaturas"
                     onClick={(e) => {

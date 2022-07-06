@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import '../styles/style.css'
 
-export const Signatures = () => {
+export const Contact = () => {
   const {store, actions} = useContext(Context);
   
 
