@@ -14,16 +14,7 @@ export const Content = () => {
           Únete a nuestra comunidad y comparte tus conocimientos<br></br>
           Ayuda a muchos jovenes a seguir sus metas.
         </p>
-        <p style={{backGround:"black"}}>
-          <a
-          style={{background:"#393E46", border:"#393E46"}}
-            className="btn btn-primary btn-lg hero-button"
-            role="button"
-            href="#"
-          >
-            Learn more
-          </a>
-        </p>
+
       </div>
 
       <section className="showcase">

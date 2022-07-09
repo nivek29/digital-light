@@ -9,7 +9,8 @@ export const getState = ({ getStore, getActions, setStore }) => {
 			],
 			grados:[],
 			materias:[],
-			disable:false
+			disable:false,
+			disableMenu:''
 		},
 		actions: {
 			
@@ -53,6 +54,11 @@ export const getState = ({ getStore, getActions, setStore }) => {
 			enable(input){
 				setStore({
 					disable:input
+				});
+			},
+			enableMenu(input){
+				setStore({
+					disableMenu:input
 				});
 			}
 

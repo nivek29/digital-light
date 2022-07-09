@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Fragment, useContext, useState } from "react";
 import Logo from "../img/footer.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 export const Navbar = () => {
   const { store, actions } = useContext(Context);
   const [ciclo, setCiclo] = useState("");
+  const [active, setActive] = useState("");
   
   const info = (e) => {
     setCiclo(e)
@@ -53,7 +54,7 @@ export const Navbar = () => {
             id="navbarNav"
           >
             <ul className="navbar-nav">
-              <Link to="/" style={{textDecoration: "none"}}>
+              <NavLink to="/" style={{textDecoration: "none"}}>
                 <li className="nav-item hover">
                   <a
                     className="nav-link hover"
@@ -63,9 +64,9 @@ export const Navbar = () => {
                     Inicio
                   </a>
                 </li>
-              </Link>
+              </NavLink>
 
-              <Link to="/ciclos/primaria" style={{textDecoration: "none"}}>
+              <NavLink to="/ciclos/primaria" style={{textDecoration: "none"}}>
                 <li className="nav-item hover">
                   <a
                     className="nav-link hover"
@@ -79,8 +80,8 @@ export const Navbar = () => {
                     Primaria
                   </a>
                 </li>
-              </Link>
-              <Link to="/ciclos/secundaria" style={{textDecoration: "none"}}>
+              </NavLink>
+              <NavLink to="/ciclos/secundaria" style={{textDecoration: "none"}}>
                 <li className="nav-item hover ">
                   <a
                     className="nav-link hover"
@@ -93,7 +94,19 @@ export const Navbar = () => {
                     Secundaria
                   </a>
                 </li>
-              </Link>
+              </NavLink>
+              <NavLink to="/materialinteractivo" style={{textDecoration: "none"}}>
+                <li className="nav-item hover ">
+                  <a
+                    className="nav-link hover"
+                    aria-current="page"
+                    id="externos"
+                    
+                  >
+                    Material interactivo
+                  </a>
+                </li>
+              </NavLink>
             </ul>
           </div>
         </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext, useState, Fragment } from "react";
 import { Context } from "../store/appContext";
@@ -32,16 +33,6 @@ export const Banner = () => {
           <p className="hero-subtitle" style={{ fontSize: "23px" }}>
             {store.ciclo[0].msg}
           </p>
-          <p style={{ backGround: "black" }}>
-            <a
-              style={{ background: "#393E46", border: "#393E46" }}
-              className="btn btn-primary btn-lg hero-button"
-              role="button"
-              href="#"
-            >
-              Learn more
-            </a>
-          </p>
         </div>
       )}
       {store.ciclo[0].tipo === "Secundaria" && (
@@ -57,16 +48,6 @@ export const Banner = () => {
           </p>
           <p className="hero-subtitle" style={{ fontSize: "23px" }}>
             {store.ciclo[0].msg}
-          </p>
-          <p style={{ backGround: "black" }}>
-            <a
-              style={{ background: "#393E46", border: "#393E46" }}
-              className="btn btn-primary btn-lg hero-button"
-              role="button"
-              href="#"
-            >
-              Learn more
-            </a>
           </p>
         </div>
       )}
@@ -92,7 +73,15 @@ export const Banner = () => {
         </div>
       </div>
       {!!store.disable && (
-        <div className="" style={{ background: "#dec6c587", marginTop:"0px", paddingBottom:"15px",paddingTop:"15px"  } }>
+        <div
+          className=""
+          style={{
+            background: "#dec6c587",
+            marginTop: "0px",
+            paddingBottom: "15px",
+            paddingTop: "15px",
+          }}
+        >
           <div className="row my-1  " style={{ justifyContent: "center" }}>
             {store.materias[0].asignatura.map((index, y) => {
               return (
@@ -104,11 +93,13 @@ export const Banner = () => {
                     <hr className="colorF" />
                     {store.materias[0].asignatura[y].contenido.map((f, t) => {
                       return (
-                        <div className="col-xs-12 text-center mb-4 bg-white">
-                          <h6>
-                            {store.materias[0].asignatura[y].contenido[t]}
-                          </h6>
-                        </div>
+                        <a style={{textDecoration: "none", color:"black"}} target="_blank" key={t} href={store.materias[0].asignatura[y].url[t]}>
+                          <div className="col-xs-12 text-center mb-4 bg-white">
+                            <h6>
+                              {store.materias[0].asignatura[y].contenido[t]}
+                            </h6>
+                          </div>
+                        </a>
                       );
                     })}
                   </div>

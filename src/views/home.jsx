@@ -3,6 +3,7 @@ import { Gallery } from '../components/gallery';
 import { Contact } from '../components/contact';
 
 
+
 export const Home = () => {
   
   return (
